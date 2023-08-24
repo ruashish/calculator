@@ -1,12 +1,12 @@
 'use client';
-import { DROPDOWN_TRIGGER_TYPE, DropDown } from '@algospace/components/atoms/dropdown';
-import { SortingVisualizer } from '@algospace/components/visualizer';
+
+import { Calculator } from '@algospace/components/calculator';
 import React from 'react';
 
 export default function Home() {
   return (
     <div className="bg-base">
-      <SortingVisualizer />
+      <Calculator />
     </div>
   );
 }
