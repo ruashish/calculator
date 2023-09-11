@@ -4,9 +4,9 @@ import { Calculator } from '@algospace/components/calculator';
 import React from 'react';
 
 export default function Home() {
-  return (
-    <div className="bg-base">
+  return (<><body className='bg-slate-700'>
       <Calculator />
-    </div>
+      </body>
+    </>
   );
 }
